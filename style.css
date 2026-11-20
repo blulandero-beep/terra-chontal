@@ -1,0 +1,362 @@
+ :root{--forest:#101d12;--forest2:#172719;--forest3:#203322;--gold:#d9a441;--gold2:#f0c56f;--cream:#f3ead6;--muted:#c6bda8;--ink:#211b13;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#f5f0e6;color:var(--ink);font-family:var(--sans);line-height:1.65}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.announcement{height:28px;background:#0b120b;color:#d8b46e;display:flex;justify-content:space-between;align-items:center;padding:0 4.5%;font-size:9px;letter-spacing:2px}.site-header{height:78px;position:sticky;top:0;z-index:20;background:rgba(13,19,13,.96);border-bottom:1px solid rgba(217,164,65,.55);display:flex;align-items:center;justify-content:space-between;padding:0 3.5%;backdrop-filter:blur(14px)}.brand{display:flex;align-items:center;gap:10px;color:#f7e9ca;min-width:190px}.brand-mark{font-size:43px;color:var(--gold);line-height:1;transform:rotate(-30deg)}.brand-name{font:600 22px/.85 var(--serif);letter-spacing:1px}.main-nav{display:flex;align-items:center;gap:clamp(12px,2vw,30px)}.main-nav a{color:#f4ead8;font-size:12px;white-space:nowrap;transition:.25s}.main-nav a:hover,.main-nav a.active{color:var(--gold2)}.main-nav a.active{background:var(--gold);color:#1c1a12;padding:10px 17px;border-radius:30px}.chevron{font-size:17px;margin-left:4px}.social-top{display:flex;gap:9px}.social-top a{width:28px;height:28px;border-radius:50%;background:var(--gold);color:#161a11;display:grid;place-items:center;font-weight:700}.nav-toggle{display:none;background:none;border:0}.hero{min-height:590px;height:min(75vw,690px);max-height:740px;position:relative;display:grid;place-items:center;background:#17170f url('assets/hero-terra-chontal.png') center/cover no-repeat;color:#fff}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,10,5,.25),rgba(4,8,4,.36) 38%,rgba(4,8,4,.18)),linear-gradient(0deg,rgba(0,0,0,.3),transparent 40%)}.hero-content{position:relative;text-align:center;margin-top:-8px;width:min(650px,90%);text-shadow:0 3px 20px #000}.ornament{display:flex;align-items:center;justify-content:center;gap:20px;color:var(--gold);font-size:45px;height:62px}.ornament i{height:2px;width:100px;background:var(--gold)}.eyebrow,.section-kicker{font-size:10px;letter-spacing:3px;color:var(--gold);font-weight:700}.hero h1{font:500 clamp(64px,9vw,112px)/.75 var(--serif);letter-spacing:5px;margin:4px 0 20px;color:#fff4df}.hero h1 em{font-style:normal}.hero-tagline{font:italic 28px var(--serif);margin:0;color:#f7e9d1}.brush{width:230px;height:12px;margin:13px auto 28px;border-bottom:4px solid var(--gold);border-radius:50%;transform:rotate(-2deg)}.hero-actions{display:flex;justify-content:center;gap:16px}.btn{display:inline-flex;align-items:center;gap:18px;padding:13px 27px;border-radius:40px;font-size:14px;font-weight:600;transition:.25s;border:1px solid var(--gold)}.btn:hover{transform:translateY(-3px);box-shadow:0 9px 25px #0003}.btn-gold{background:var(--gold);color:#17170f}.btn-outline{color:#fff7e7;background:rgba(0,0,0,.28)}.btn-outline:hover{background:var(--gold);color:#17170f}.scroll-cue{position:absolute;top:calc(100% + 40px);left:50%;border:1px solid #fff;border-radius:50%;width:32px;height:32px;display:grid;place-items:center;font-size:22px}.hero-caption{position:absolute;bottom:18px;right:4%;font-size:9px;letter-spacing:2px;color:#f4dca9}.section-pad{padding:92px max(6%,calc((100% - 1200px)/2))}.about{background:var(--forest);color:var(--cream);display:grid;grid-template-columns:1.13fr 1fr .75fr;gap:34px;align-items:center;position:relative;overflow:hidden}.about:before,.special-section:before,.curios-section:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 10% 40%,#38512b55,transparent 34%),radial-gradient(ellipse at 90% 90%,#c28b2b16,transparent 30%)}.about-copy,.about-photo,.values{position:relative}.section-kicker{margin-bottom:12px}.about h2,.section-heading h2,.reservation-intro h2,.contact-main h2{font:500 clamp(38px,5vw,58px)/.95 var(--serif);margin:0 0 20px;color:#f4e5c5}.about h2 em,.section-heading h2 em,.reservation-intro h2 em,.contact-main h2 em{color:var(--gold2);font-style:italic}.about-copy p{font:17px/1.55 var(--serif);color:#e5dcc8;margin:0 0 15px}.text-link{display:inline-block;margin-top:12px;border-bottom:1px solid var(--gold);padding-bottom:5px;color:var(--gold2);font-size:13px}.text-link span{padding-left:12px}.about-photo{height:340px;border:2px solid var(--gold);border-radius:15px;overflow:hidden}.about-photo img{width:100%;height:100%;object-fit:cover}.photo-stamp{position:absolute;bottom:18px;right:18px;border:1px solid var(--gold);padding:10px 15px;background:#0b150dcc;color:var(--gold2);font:600 19px/.9 var(--serif);text-align:center}.values{display:grid;gap:25px}.values article{display:flex;gap:16px;align-items:flex-start}.value-icon{color:var(--gold);font-size:35px;line-height:1}.values h3{font:600 23px var(--serif);color:var(--gold2);margin:0 0 4px}.values p{font-size:12px;line-height:1.55;color:#e8e0cf;margin:0}.menu-section,.gallery-section,.team-section{background:#f5f0e6}.section-heading{text-align:center;max-width:690px;margin:0 auto 38px}.section-heading h2{color:#252319;margin-bottom:12px}.section-heading h2 em{color:#9b6b22}.section-heading p{margin:0;color:#716957;font-size:14px}.menu-controls{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:0 auto 30px}.filter{border:1px solid #c9b98f;color:#5b4b2d;background:transparent;border-radius:30px;padding:9px 18px;font-size:12px;cursor:pointer;transition:.2s}.filter.active,.filter:hover{background:var(--forest);color:var(--gold2);border-color:var(--forest)}.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.menu-card{background:#fffdf8;border:1px solid #e8ddc6;box-shadow:0 8px 24px #4b3a1b0b;overflow:hidden;border-radius:10px;transition:.25s;display:flex;flex-direction:column}.menu-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #3b2c171c}.menu-card img{width:100%;height:190px;object-fit:cover}.menu-card-body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}.menu-category{color:#9b6b22;font-size:9px;letter-spacing:2px;font-weight:700;text-transform:uppercase}.menu-card h3{font:600 25px/1.05 var(--serif);margin:8px 0;color:#2a291f}.menu-card p{font-size:12px;color:#716957;line-height:1.55;margin:0 0 13px}.menu-card-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:10px;border-top:1px solid #eee5d4}.price{font-weight:700;color:#87601e;font-size:13px}.details-btn{border:0;background:none;color:#25351f;font-weight:700;cursor:pointer;font-size:12px}.menu-note{text-align:center;color:#857d6b;font-size:11px;margin:28px 0 0}.special-section,.curios-section{background:var(--forest);color:var(--cream);position:relative;overflow:hidden}.section-heading.light h2{color:#f4e5c5}.section-heading.light p{color:#c9c1ad}.special-grid{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.special-card{background:#1a2b1b;border:1px solid #94702f;border-radius:9px;overflow:hidden}.special-card img{width:100%;height:220px;object-fit:cover}.special-card div{padding:22px}.special-card h3{font:600 27px/1 var(--serif);color:var(--gold2);margin:0 0 12px}.special-card p{font-size:12px;color:#ddd4c2;line-height:1.65}.special-card small{color:#d4b778;font-size:11px;display:block;margin-top:12px}.special-price{color:#f2d18b;font-weight:700}.chef-note{position:relative;max-width:900px;margin:45px auto 0;padding:26px 32px;border-top:1px solid #9e7a3c;border-bottom:1px solid #9e7a3c;display:flex;gap:20px}.quote-mark{font:80px/.7 var(--serif);color:var(--gold)}.chef-note p{font:italic 18px/1.5 var(--serif);color:#eee3cf;margin:0 0 12px}.chef-note small{letter-spacing:2px;color:var(--gold2);font-size:9px}.gallery-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-auto-rows:190px;gap:14px}.gallery-item{position:relative;border:0;padding:0;overflow:hidden;cursor:zoom-in;background:#222}.gallery-item.tall{grid-row:span 2}.gallery-item.wide{grid-column:span 2}.gallery-item img{width:100%;height:100%;object-fit:cover;transition:.5s}.gallery-item:hover img{transform:scale(1.07);filter:brightness(.75)}.gallery-item span{position:absolute;bottom:15px;left:18px;color:#fff;font:600 22px var(--serif);text-shadow:0 2px 8px #000}.curios-grid{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.curio-card{border:1px solid #6c623e;background:#1b2a1c;padding:22px 17px;border-radius:8px;min-height:180px;transition:.25s}.curio-card:hover{transform:translateY(-7px);background:#263a26;border-color:var(--gold)}.curio-icon{font-size:29px}.curio-card h3{font:600 22px/1.05 var(--serif);color:var(--gold2);margin:12px 0 8px}.curio-card p{font-size:11px;line-height:1.55;color:#d6cebc;margin:0}.team-layout{display:grid;grid-template-columns:1.15fr 1fr;gap:35px;align-items:stretch}.team-list{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.team-person{border:1px solid #e1d4b9;background:#fffaf0;border-radius:8px;padding:13px 7px;text-align:center;cursor:pointer;transition:.2s;color:#322b1d}.team-person:hover,.team-person.selected{border-color:#ad7c2b;background:#f0e5ce;transform:translateY(-3px)}.team-avatar{width:62px;height:62px;margin:0 auto 9px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(140deg,#293e29,#b07a2b);color:#fff0cd;font:600 20px var(--serif);border:2px solid #d2a34a}.team-person b{display:block;font:600 15px/1.05 var(--serif)}.team-person small{font-size:9px;color:#82745a}.team-detail{background:#172619;color:#f2e8d6;padding:32px;border-radius:10px;border:1px solid #b98b3d;display:flex;flex-direction:column;justify-content:center}.team-avatar.large{width:92px;height:92px;font-size:30px;margin:0 0 20px}.team-detail h3{font:600 35px/1 var(--serif);color:var(--gold2);margin:0 0 8px}.team-meta{color:#d8b56c;font-size:11px;margin:0 0 20px}.team-detail #teamBio{font:17px/1.6 var(--serif);color:#eee4d1;margin:0}.reservation-section{background:#eae1cf;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.reservation-intro h2{color:#252319}.reservation-intro p{max-width:430px;color:#655c4b;font-size:14px}.reservation-detail{display:flex;align-items:center;gap:13px;margin-top:20px}.reservation-detail>span{color:#a8792a;font-size:23px}.reservation-detail b,.reservation-detail small{display:block}.reservation-detail b{font:600 20px var(--serif);color:#3a3427}.reservation-detail small{font-size:11px;color:#746a57}.reservation-form{background:#fffaf0;padding:32px;border-radius:10px;box-shadow:0 15px 40px #4b3a1b15;border:1px solid #ddcda9}.form-title{margin-bottom:20px}.form-title span{font-size:9px;letter-spacing:2px;color:#9d7229}.form-title h3{font:600 32px var(--serif);margin:0;color:#2b2a20}.reservation-form label{display:block;font-size:11px;font-weight:700;color:#5d513d;margin-bottom:13px}.reservation-form input,.reservation-form select,.reservation-form textarea{display:block;width:100%;margin-top:6px;border:1px solid #ddd1b9;border-radius:5px;padding:11px 12px;background:#fffefa;color:#28251d;font-size:13px;outline:none}.reservation-form input:focus,.reservation-form select:focus,.reservation-form textarea:focus{border-color:#a87b2d;box-shadow:0 0 0 3px #d8b66c33}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}.submit-btn{border:0;width:100%;justify-content:center;cursor:pointer}.form-feedback{font-size:10px;color:#827762;text-align:center;margin:12px 0 0}.contact-section{background:#101a11;color:#f2e8d6;display:grid;grid-template-columns:1fr 1.2fr;gap:70px;align-items:center}.contact-main h2{font-size:58px}.contact-main p{color:#c8c0ad;font:italic 19px var(--serif);margin:0 0 25px}.contact-info{display:grid;grid-template-columns:1fr 1fr;gap:30px}.contact-info>div{border-top:1px solid #80632e;padding-top:15px}.contact-info span{font-size:9px;letter-spacing:2px;color:var(--gold2);font-weight:700}.contact-info p{font-size:13px;line-height:1.7;color:#e0d6c4}.contact-info small{color:#9f9887;font-size:10px}.social-links{display:flex;gap:14px}.social-links a{color:var(--gold2);text-decoration:underline}.footer{background:#080e09;color:#c8bea9;padding:38px 6% 18px}.footer-top{display:flex;align-items:center;justify-content:space-between;gap:30px;padding-bottom:30px;border-bottom:1px solid #4a402a}.footer-brand{min-width:150px}.footer-top>p{font:italic 18px var(--serif);color:#d6c49f}.footer-top nav{display:flex;gap:18px;flex-wrap:wrap}.footer-top nav a{font-size:11px}.academic{display:flex;align-items:center;gap:18px;padding:20px 0;border-bottom:1px solid #302a1c}.udea-mark{width:62px;height:62px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold2);font:700 14px var(--serif)}.academic p{font-size:10px;line-height:1.55;color:#b9af9a}.academic p b{color:#e9d7ae}.academic small{color:#8e8778}.developer-credit{margin-left:auto}.copyright{text-align:center;font-size:9px;color:#807968;padding-top:17px}.lightbox,.dish-dialog{border:0;padding:0;background:#10160f;color:#f4ead6;max-width:min(900px,92vw);max-height:90vh;border-radius:10px;box-shadow:0 20px 80px #0008}.lightbox::backdrop,.dish-dialog::backdrop{background:#050805dd;backdrop-filter:blur(5px)}.lightbox img{display:block;max-width:88vw;max-height:82vh;object-fit:contain}.close-lightbox,.close-dish{position:absolute;right:10px;top:7px;border:0;background:#0b100ddd;color:white;border-radius:50%;font-size:27px;width:36px;height:36px;cursor:pointer;z-index:2}.dish-dialog{width:min(650px,92vw);padding:32px}.dish-dialog h2{font:600 38px var(--serif);color:var(--gold2);line-height:1;margin:0 35px 15px 0}.dish-dialog p{font:15px/1.6 var(--serif);color:#e6dcc9}.dish-dialog .dialog-price{color:var(--gold2);font-weight:700}.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}@media(max-width:1100px){.main-nav{gap:11px}.main-nav a{font-size:10px}.brand{min-width:150px}.social-top{display:none}.about{grid-template-columns:1fr 1fr}.values{grid-column:1/-1;grid-template-columns:repeat(3,1fr)}.values article{gap:10px}.menu-grid{grid-template-columns:repeat(2,1fr)}.curios-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.announcement{justify-content:center}.announcement span:last-child{display:none}.site-header{height:68px;padding:0 5%}.brand-mark{font-size:35px}.brand-name{font-size:19px}.nav-toggle{display:flex;flex-direction:column;gap:6px;width:38px;padding:8px}.nav-toggle span{height:2px;background:var(--gold);width:23px}.main-nav{display:none;position:absolute;top:68px;left:0;right:0;background:#101a11;padding:18px 6% 25px;flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--gold)}.main-nav.open{display:flex}.main-nav a{font-size:13px;padding:12px 8px;border-bottom:1px solid #ffffff12}.main-nav a.active{border-radius:5px;padding:10px}.hero{height:640px;min-height:580px;background-position:48% center}.hero-content{margin-top:-15px}.hero h1{font-size:72px}.hero-tagline{font-size:22px}.hero-actions{gap:9px}.btn{padding:12px 17px;font-size:12px}.section-pad{padding:68px 6%}.about{grid-template-columns:1fr;gap:28px}.about-photo{height:270px;grid-row:2}.values{grid-column:auto;grid-template-columns:1fr;gap:18px}.about-copy p{font-size:16px}.menu-grid{grid-template-columns:1fr}.menu-card img{height:220px}.special-grid{grid-template-columns:1fr}.special-card img{height:230px}.chef-note{padding:20px 4px}.chef-note p{font-size:16px}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:160px}.gallery-item.tall{grid-row:span 2}.gallery-item.wide{grid-column:span 1}.gallery-item span{font-size:17px;left:10px;bottom:9px}.curios-grid{grid-template-columns:1fr 1fr}.curio-card{min-height:160px;padding:16px 13px}.team-layout{grid-template-columns:1fr}.team-list{grid-template-columns:repeat(3,1fr)}.team-detail{min-height:320px;padding:25px}.team-detail #teamBio{font-size:16px}.reservation-section{grid-template-columns:1fr;gap:30px}.reservation-form{padding:23px}.contact-section{grid-template-columns:1fr;gap:35px}.contact-main h2{font-size:48px}.contact-info{gap:20px}.footer-top{align-items:flex-start;flex-direction:column}.footer-top nav{gap:15px}.academic{align-items:flex-start;flex-wrap:wrap}.developer-credit{margin-left:0;width:100%}}@media(max-width:390px){.hero h1{font-size:60px}.hero-tagline{font-size:19px}.hero-actions{flex-direction:column;align-items:center}.hero-actions .btn{width:190px;justify-content:center}.form-row{grid-template-columns:1fr}.team-list{grid-template-columns:repeat(2,1fr)}.curios-grid{grid-template-columns:1fr}.contact-info{grid-template-columns:1fr}.gallery-grid{grid-auto-rows:135px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+
+/* Fotografías del equipo: conservan el diseño original y usan recorte uniforme. */
+.team-avatar{overflow:hidden;position:relative}
+.team-avatar img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit;transition:transform .45s ease}
+.team-person:hover .team-avatar img{transform:scale(1.08)}
+.team-avatar.large{width:170px;height:190px;border-radius:10px;flex:0 0 auto}
+.team-avatar.large img{object-fit:cover}
+@media(max-width:600px){.team-avatar.large{width:130px;height:150px}}/* Fotografía grupal de Terra Chontal */
+.about-group-photo {
+  position: relative;
+  height: 340px;
+  border: 2px solid var(--gold);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.about-group-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-group-photo span {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: rgba(11, 21, 13, 0.85);
+  color: var(--gold2);
+  padding: 9px 14px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 760px) {
+  .about-group-photo {
+    height: 270px;
+  }
+}
+/* DISTRIBUCIÓN DE LA SECCIÓN SOBRE NOSOTROS */
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+  align-items: center;
+}
+
+/* Elementos decorativos */
+.about .leaf-deco {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  pointer-events: none;
+}
+
+/* Fotografía grupal: lado izquierdo */
+.about-group-photo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* Texto Nuestra esencia: lado derecho */
+.about-copy {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* Fotografía original del restaurante */
+.about-photo {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/* Apartado de valores */
+.values {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 760px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .about-group-photo,
+  .about-copy,
+  .about-photo,
+  .values {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .about-group-photo {
+    height: 270px;
+  }
+}
+
+/* VIDEOS DE PRÁCTICAS GASTRONÓMICAS */
+
+.practicas-videos {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.practicas-videos h3 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #173323;
+  margin-bottom: 12px;
+}
+
+.practicas-videos p {
+  color: #786e60;
+  margin-bottom: 30px;
+}
+
+.practicas-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.practicas-videos video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #111;
+  border-radius: 12px;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 760px) {
+  .practicas-videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .practicas-videos h3 {
+    font-size: 27px;
+  }
+}
+
+
+/* ESTILO PREMIUM PARA LOS VIDEOS - TERRA CHONTAL */
+
+.practicas-videos {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.practicas-videos h3 {
+  font-family: Georgia, serif;
+  color: var(--forest);
+  font-size: clamp(28px, 3vw, 38px);
+  margin-bottom: 12px;
+}
+
+.practicas-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 35px;
+}
+
+.practicas-videos video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #0b1710;
+
+  border: 2px solid var(--gold);
+  border-radius: 16px;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+
+  transition: transform 0.35s ease,
+              box-shadow 0.35s ease;
+}
+
+.practicas-videos video:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.25);
+}
+
+/* DISEÑO PARA CELULARES */
+
+@media (max-width: 760px) {
+  .practicas-videos-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .practicas-videos video {
+    transition: none;
+  }
+
+  .practicas-videos video:hover {
+    transform: none;
+  }
+}
+
+/* HISTORIA GASTRONÓMICA - TERRA CHONTAL */
+
+.history-section {
+  background: var(--forest);
+  color: var(--cream);
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.history-kicker {
+  color: var(--gold2);
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+.history-copy h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.history-copy h2 em {
+  color: var(--gold2);
+}
+
+.history-intro {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.history-copy h3 {
+  color: var(--gold2);
+  font-size: 21px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.history-copy p {
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.history-photo {
+  margin: 0;
+  overflow: hidden;
+  border: 2px solid var(--gold);
+  border-radius: 16px;
+}
+
+.history-photo img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.history-ending {
+  padding: 25px;
+}
+
+.history-ending blockquote {
+  margin: 25px 0 0;
+  padding-left: 20px;
+  border-left: 3px solid var(--gold);
+  color: var(--gold2);
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+/* ADAPTACIÓN PARA CELULARES */
+
+@media (max-width: 760px) {
+  .history-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .history-photo img {
+    height: 260px;
+  }
+
+  .history-ending {
+    padding: 0;
+  }
+}
+
+/* LOGOTIPO DE TERRA CHONTAL EN EL ENCABEZADO */
+
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+
+/* LOGOTIPO PRINCIPAL ENCIMA DEL TITULO TERRA CHONTAL */
+
+.ornament .hero-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+/* TIPOGRAFÍA DE LA SECCIÓN RAÍCES DE NUESTRA GASTRONOMÍA */
+
+/* Título principal */
+.history-section .history-copy h2 {
+  font-family: var(--serif);
+}
+
+/* Subtítulos */
+.history-section .history-copy h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+}
+
+/* Párrafos y descripciones */
+.history-section .history-copy p {
+  font-family: var(--sans);
+}
+
+/* Texto introductorio */
+.history-section .history-intro {
+  font-family: var(--serif) !important;
+  font-style: italic;
+}
+
+/* Frase final */
+.history-section .history-ending blockquote {
+  font-family: var(--serif);
+}
+
+/* Texto pequeño superior */
+.history-section .history-kicker {
+  font-family: var(--sans);
+}

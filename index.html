@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b10"><meta name="description" content="Terra Chontal: cocina de territorio, tradición tabasqueña y alta cocina contemporánea.">
+  <title>Terra Chontal | Sabores de Tabasco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>COCINA DE TERRITORIO · TABASCO, MÉXICO</span><span>Una experiencia que honra nuestras raíces</span></div>
+  <header class="site-header" id="top">
+<a class="brand" href="#inicio" aria-label="Terra Chontal, inicio">
+  <img
+    src="assets/logo-terra-chontal.png"
+    alt="Logotipo de Terra Chontal"
+    class="brand-logo"
+  >
+  <span class="brand-name">TERRA<br>CHONTAL</span>
+</a>
+    
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio">Inicio</a><a href="#nosotros">Sobre nosotros</a>
+      <a href="#menu">Menú <span class="chevron">⌄</span></a><a href="#galeria">Galería</a><a href="#especialidades">Especialidades</a><a href="#reservaciones">Reservaciones</a><a href="#equipo">Nuestro equipo</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="social-top"><a href="#contacto" aria-label="Facebook">f</a><a href="#contacto" aria-label="Instagram">◎</a><a href="#contacto" aria-label="TikTok">♪</a></div>
+  </header>
+  <main>
+    <section class="hero" id="inicio"><div class="hero-shade"></div><div class="hero-content reveal"><div class="ornament">
+  <i></i>
+  <img
+    src="assets/logo-terra-chontal.png"
+    alt="Logotipo de Terra Chontal"
+    class="hero-logo"
+  >
+  <i></i>
+</div><p class="eyebrow">COCINA DE ORIGEN · ALTA COCINA</p><h1>TERRA<br><em>CHONTAL</em></h1><p class="hero-tagline">Sabores de Tabasco, tradición en cada bocado.</p><div class="brush"></div><div class="hero-actions"><a class="btn btn-gold" href="#menu">Ver menú <span>↗</span></a><a class="btn btn-outline" href="#nosotros">Conócenos <span>↗</span></a></div><a class="scroll-cue" href="#nosotros" aria-label="Desplazarse hacia abajo">⌄</a></div><div class="hero-caption">RAÍCES QUE INSPIRAN · SABORES QUE PERMANECEN</div></section>
+    <section class="about section-pad" id="nosotros"><div class="leaf-deco">✦</div><div class="about-group-photo reveal">
+  <img src="assets/equipo/fotogrupal.jpeg"
+       alt="Fotografía grupal del equipo Terra Chontal"
+       loading="lazy">
+  <span>EL EQUIPO TERRA CHONTAL</span>
+</div><div class="about-copy reveal"><div class="section-kicker"><span>❧</span> NUESTRA ESENCIA</div><h2>Sobre <em>nosotros</em></h2><p>Terra Chontal nace de la profunda convicción de enaltecer la riqueza biocultural del trópico tabasqueño a través de la alta cocina. Fundado bajo una mirada de respeto absoluto por el origen, el proyecto rinde tributo a las comunidades chontales y a los antiguos saberes que han custodiado los secretos de la selva, los ríos y los pantanos durante generaciones.</p><p>Nuestra cocina es un puente entre la memoria ancestral y la vanguardia culinaria: un espacio donde el cacao criollo, las hierbas endémicas, la pesca de río y los recetarios de solar se reinterpretan con técnicas contemporáneas y precisión técnica internacional.</p><a class="text-link" href="#especialidades">Descubre nuestra cocina <span>→</span></a></div>
+      <div class="about-photo reveal"><img src="assets/restaurante/restaurante.jpg" alt="Comedor cálido de un restaurante de alta cocina" loading="lazy"><span class="photo-stamp">TERRA<br>CHONTAL</span></div>
+      <div class="values reveal"><article><span class="value-icon">✺</span><div><h3>Nuestra misión</h3><p>Reinterpretar la herencia culinaria tradicional de Tabasco bajo los más altos estándares de la alta cocina contemporánea.</p></div></article><article><span class="value-icon">◉</span><div><h3>Nuestra visión</h3><p>Ser un referente de la cocina regional, inspirando orgullo por nuestros sabores y patrimonio gastronómico.</p></div></article><article><span class="value-icon">♧</span><div><h3>Nuestra filosofía</h3><p>Cocina de territorio y estricta temporalidad: técnica al servicio de la pureza y complejidad de los ingredientes nativos.</p></div></article></div>
+    </section>
+    <section class="menu-section section-pad" id="menu"><div class="section-heading reveal"><div class="section-kicker">EL RECETARIO DEL TERRITORIO</div><h2>Menú <em>gastronómico</em></h2><p>Un viaje por los sabores de nuestra tierra, los ríos y la memoria de nuestras cocinas.</p></div><div class="menu-controls" id="menuFilters" aria-label="Filtrar menú"><button class="filter active" data-filter="Todos">Todo el menú</button><button class="filter" data-filter="Entradas">Entradas</button><button class="filter" data-filter="Platos fuertes">Platos fuertes</button><button class="filter" data-filter="Postres">Postres</button><button class="filter" data-filter="Bebidas">Bebidas</button></div><div class="menu-grid" id="menuGrid"></div></section>
+    <section class="special-section section-pad" id="especialidades"><div class="section-heading light reveal"><div class="section-kicker">FIRMA DE LA CASA</div><h2>Especialidades <em>del chef</em></h2><p>Tres creaciones que cuentan la historia de Tabasco desde una mirada contemporánea.</p></div><div class="special-grid" id="specialGrid"></div><div class="chef-note reveal"><span class="quote-mark">“</span><div><p>Para apreciar la evolución de la cocina ancestral de nuestros ríos y pantanos, sugiero comenzar el recorrido degustando la Tortuga en Verde en su versión adaptada con robalo. El equilibrio herbal de la hoja santa y la acidez natural de la naranja agria limpian el paladar y preparan los sentidos para la intensidad aromática y el picor sutil del Robalo en Costra de Pepita y Amashito, cerrando con la profundidad tostada del Pato en Pipián Negro. Recomiendo acompañar este trío con una jícara fría de agua de matalí con limón criollo para refrescar entre cada bocado.</p><small>— RECOMENDACIÓN DEL CHEF</small></div></div></section>
+    
+<!-- HISTORIA DE LA GASTRONOMÍA TABASQUEÑA -->
+
+<section class="history-section section-pad" id="historia">
+
+  <div class="history-grid">
+
+    <div class="history-copy reveal">
+
+      <div class="history-kicker">
+        HISTORIA Y TRADICIÓN TABASQUEÑA
+      </div>
+
+      <h2>Raíces de nuestra <em>gastronomía</em></h2>
+
+      <p class="history-intro">
+        Una herencia ancestral que sigue viva en cada sabor.
+      </p>
+
+      <h3>El origen de nuestros sabores</h3>
+
+      <p>
+        La gastronomía tabasqueña tiene sus raíces en las
+        antiguas culturas olmeca y maya, así como en las
+        tradiciones de los pueblos yokot'an. Ingredientes
+        como el maíz, el cacao y las hierbas regionales
+        han formado parte de su identidad culinaria
+        durante generaciones.
+      </p>
+
+      <h3>Una cocina nacida de la tierra y los ríos</h3>
+
+      <p>
+        La riqueza natural de Tabasco ha dado vida a
+        preparaciones emblemáticas como el pejelagarto
+        asado, los tamales de chipilín, el mone y el
+        tradicional pozol de cacao.
+      </p>
+
+      <p>
+        Con el paso del tiempo, la combinación de saberes
+        indígenas e influencias posteriores enriqueció
+        una cocina caracterizada por sus aromas,
+        ingredientes y técnicas tradicionales.
+      </p>
+
+    </div>
+
+    <figure class="history-photo reveal">
+      <img
+        src="assets/historia/gastronomia_tabasquena.png"
+        alt="Platillos y bebidas de la gastronomía tradicional tabasqueña"
+        loading="lazy">
+    </figure>
+
+    <figure class="history-photo reveal">
+      <img
+        src="assets/historia/raices_tabasquenas.png"
+        alt="Ingredientes y raíces ancestrales de la cocina tabasqueña"
+        loading="lazy">
+    </figure>
+
+    <div class="history-copy history-ending reveal">
+
+      <h3>Tradición que inspira nuestro presente</h3>
+
+      <p>
+        Cada platillo conserva una parte de nuestra historia.
+        En TERRA CHONTAL, honramos ese legado reinterpretando
+        los sabores tradicionales mediante técnicas
+        contemporáneas, sin perder el respeto por
+        nuestras raíces.
+      </p>
+
+      <blockquote>
+        Nuestra cocina no solo alimenta los sentidos;
+        también mantiene viva la memoria de nuestra tierra.
+      </blockquote>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <section class="gallery-section section-pad" id="galeria"><div class="section-heading reveal"><div class="section-kicker">UNA MIRADA A NUESTRA MESA</div><h2>Galería <em>sensorial</em></h2>
+<p>Detrás de cada platillo hay manos que aprenden, ideas que se encienden y un equipo que transforma cada práctica en una historia digna de compartir.</p>
+</div><div class="gallery-grid"><button class="gallery-item tall" data-full="https://images.unsplash.com/photo-1544943910-4c1dc44aab44?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1544943910-4c1dc44aab44?auto=format&fit=crop&w=750&q=80" alt="Pescado emplatado" loading="lazy"><span>La pesca del día</span></button><button class="gallery-item" data-full="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=750&q=80" alt="Ingredientes frescos y vegetales" loading="lazy"><span>Del huerto a la mesa</span></button><button class="gallery-item" data-full="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=750&q=80" alt="Postre artesanal" loading="lazy"><span>Dulces memorias</span></button><button class="gallery-item wide" data-full="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=750&q=80" alt="Interior de restaurante" loading="lazy"><span>Hospitalidad chontal</span></button><button class="gallery-item" data-full="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=750&q=80" alt="Bebida refrescante" loading="lazy"><span>Refrescar los sentidos</span></button><button class="gallery-item" data-full="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=750&q=80" alt="Filete de pescado" loading="lazy"><span>Ríos de sabor</span></button></div></section>
+    
+<!-- VIDEOS DE NUESTRAS PRÁCTICAS GASTRONÓMICAS -->
+
+<section class="gallery-section section-pad" id="videos-practicas">
+
+  <div class="practicas-videos">
+
+    <h3>Momentos en video</h3>
+
+    <p>Experiencias que forman parte de nuestro aprendizaje gastronómico.</p>
+
+    <div class="practicas-videos-grid">
+
+      <video controls preload="metadata" playsinline>
+        <source src="assets/practicas/videos/vid1.mp4" type="video/mp4">
+      </video>
+
+      <video controls preload="metadata" playsinline>
+        <source src="assets/practicas/videos/vid2.mp4" type="video/mp4">
+      </video>
+
+      <video controls preload="metadata" playsinline>
+        <source src="assets/practicas/videos/vid3.mp4" type="video/mp4">
+      </video>
+
+      <video controls preload="metadata" playsinline>
+        <source src="assets/practicas/videos/vid4.mp4" type="video/mp4">
+      </video>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="curios-section section-pad"><div class="section-heading light reveal"><div class="section-kicker">SABERES DE NUESTRA TIERRA</div><h2>Tabasco en <em>10 sabores</em></h2><p>Pequeñas historias para conocer mejor nuestro patrimonio gastronómico.</p></div><div class="curios-grid" id="curiosGrid"></div></section>
+    <section class="team-section section-pad" id="equipo"><div class="section-heading reveal"><div class="section-kicker">LAS PERSONAS DETRÁS DE CADA PLATILLO</div><h2>Nuestro <em>equipo</em></h2><p>Un equipo unido por la curiosidad, el respeto al producto y el amor por la gastronomía.</p></div><div class="team-layout"><div class="team-list" id="teamList" role="listbox" aria-label="Selecciona un integrante"></div><article class="team-detail" id="teamDetail" aria-live="polite"><div class="team-avatar large" id="teamAvatar">TC</div><div class="section-kicker">NUESTRA COMUNIDAD</div><h3 id="teamName">Conoce a nuestro equipo</h3><p class="team-meta" id="teamMeta">Selecciona una fotografía para conocer su historia.</p><p id="teamBio">Cada integrante aporta una mirada única a esta cocina que honra las raíces de Tabasco.</p></article></div></section>
+    <section class="reservation-section section-pad" id="reservaciones"><div class="reservation-intro reveal"><div class="section-kicker">TU MESA TE ESPERA</div><h2>Reserva una <em>experiencia</em></h2><p>Déjanos preparar un lugar para ti. Completa tus datos para solicitar una mesa. Tu reservación estará sujeta a confirmación.</p><div class="reservation-detail"><span>✦</span><div><b>Atención personalizada</b><small>Solicitudes sujetas a confirmación.</small></div></div><div class="reservation-detail"><span>✦</span><div><b>Sabores de temporada</b><small>Pregunta por nuestras sugerencias del día.</small></div></div></div><form class="reservation-form reveal" id="reservationForm"><div class="form-title"><span>RESERVACIONES</span><h3>Solicita tu mesa</h3></div><label>Nombre completo<input name="name" type="text" placeholder="Tu nombre" required minlength="3" autocomplete="name"></label><div class="form-row"><label>Fecha<input name="date" type="date" required></label><label>Hora<select name="time" required><option value="">Selecciona</option><option>13:00</option><option>14:00</option><option>15:00</option><option>19:00</option><option>20:00</option><option>21:00</option></select></label></div><div class="form-row"><label>Número de personas<select name="guests" required><option value="">Selecciona</option><option>1 persona</option><option>2 personas</option><option>3 personas</option><option>4 personas</option><option>5 personas</option><option>6 personas</option><option>7 o más personas</option></select></label><label>Correo electrónico<input name="email" type="email" placeholder="correo@ejemplo.com" required autocomplete="email"></label></div><label>Comentarios (opcional)<textarea name="notes" rows="3" placeholder="Ocasión especial, alergias o solicitudes..."></textarea></label><button class="btn btn-gold submit-btn" type="submit">Preparar reservación <span>→</span></button><p class="form-feedback" id="formFeedback" role="status">Completa el formulario para enviarnos tu solicitud de reservación.</p></form></section>
+    <section class="contact-section section-pad" id="contacto"><div class="contact-main"><div class="section-kicker">VISÍTANOS</div><h2>El sabor de Tabasco<br><em>te espera.</em></h2><p>Una mesa, una historia y una experiencia para recordar.</p><a class="btn btn-gold" href="https://wa.me/529931234567?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Terra%20Chontal" target="_blank" rel="noopener">WhatsApp <span>↗</span></a></div><div class="contact-info"><div><span>UBICACIÓN</span><p>Av. de los Sabores 125, Zona Centro<br>Cunduacán, Tabasco, México<br></p></div><div><span>HORARIOS</span><p>Martes a domingo<br>13:00–17:00 · 19:00–22:00<br><small>Lunes: descanso.</small></p></div><div><span>CONTACTO</span><p><a href="mailto:terrachontal@gmail.com">terrachontal@gmail.com</a><br>+52 993 123 4567 </p></div><div><span>SÍGUENOS</span><p class="social-links"><a href="#contacto">Instagram</a><a href="#contacto">Facebook</a><a href="#contacto">TikTok</a></p></div></div></section>
+  </main>
+  <footer class="footer"><div class="footer-top"><a class="brand footer-brand" href="#inicio">
+<img
+  src="assets/logo-terra-chontal.png"
+  alt="Logotipo de Terra Chontal"
+  class="brand-logo"
+>
+<span class="brand-name">TERRA<br>CHONTAL</span></a><p>Sabores de Tabasco,<br>tradición en cada bocado.</p><nav><a href="#nosotros">Nosotros</a><a href="#menu">Menú</a><a href="#reservaciones">Reservaciones</a><a href="#equipo">Equipo</a></nav></div><div class="academic">
+<img
+  src="assets/logo-udea.webp"
+  alt="Logotipo oficial de la Universidad de los Ángeles"
+  class="udea-logo"
+  style="width: 90px; height: auto; object-fit: contain;"
+>
+<p><b>Proyecto académico</b><br>Universidad de los Angeles · Unidad Chichicapa<br>Licenciatura en Gastronomía · 1ro.<br></p><p class="developer-credit">Desarrollo web: <b>Jose Daniel Landero Reyes</b></p></div><div class="copyright">© <span id="year"></span> Terra Chontal. Proyecto académico. Todos los derechos reservados.</div></footer>
+  <dialog class="lightbox" id="lightbox"><button class="close-lightbox" aria-label="Cerrar">×</button><img id="lightboxImage" alt="Imagen ampliada"></dialog>
+  <dialog class="dish-dialog" id="dishDialog"><button class="close-dish" aria-label="Cerrar">×</button><div id="dishContent"></div></dialog>
+  <script src="data.js"></script><script src="script.js"></script>
+</body></html>
